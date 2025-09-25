@@ -1,0 +1,252 @@
+*{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(/img/pngtree-abstract-black-and-gray-grunge-brush-style-for-sport-background-picture-image_1986207.jpg);
+  background-size: cover;
+}
+.Banner{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 200px;
+  align-items: center;
+  background-color: #fff;
+  opacity: 0.9;
+}
+.Titu-1{
+  width: 20%;
+  height: 150px;
+  background-color: #ffffff;
+  color: #0a0a0a;
+  text-align: center;
+  font-size: 2rem;
+  align-items: center;
+  overflow: hidden;
+
+}
+.Titu-2{
+  width: 80%;
+  height: 200px;
+  background-color: #fff;
+  color: #000000;
+  text-align: center;
+  font-size: 3rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.Titu-2 h1{
+  display: flex;
+  font-size: 60px;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.Titu-2 a:hover{
+  background-color: rgb(0, 0, 0);
+  font-size: 1.1rem;
+  padding: 15px;
+  border-radius: 10px;
+  color: #fff;
+
+}
+.items{
+  display: flex;
+  flex: row;
+  margin: 10px;
+  align-items: center;
+
+}
+.items a{
+  font-size: 1rem;
+  text-decoration: none;
+  border-right: 2px solid rgb(0, 0, 0);
+  text-align: center;
+  color: black;
+  font-weight: bold;
+}
+.Contenedor{
+  display: flex;
+  flex: row;
+  width: 100%;
+  height: 150px;
+  background-color: brown;
+  margin-top: -400px;
+}
+.Cont-1{
+  width: 20%;
+  height: 200px;
+  background-color: rgb(253, 253, 253);
+  opacity: 0.9;
+   padding: 10px 20px;
+   justify-content: center;
+   align-items: center;
+}
+.Cont-2{
+  width: 80%;
+  height: 200px;
+  background-color: rgb(255, 255, 255);
+  opacity: 0.9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 20px;
+  overflow: hidden;
+}
+.Cont-2 h1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Cont-2img{
+  display: flex;
+  flex: row;
+  gap: 20px;
+
+}
+.img{
+  width: 150px;
+  height: 150px;
+  margin: 20px;
+  cursor: pointer;
+  }
+  .Contenedor-2{
+  display: flex;
+  flex: row;
+  width: 100%;
+  height: 150px;
+  background-color: brown;
+  margin-top: 100px;
+  }
+  .profesor{
+    width: 20%;
+  height: 200px;
+  background-color: blue;
+   padding: 10px 20px;
+   justify-content: center;
+   align-items: center;
+
+  }
+  .logros{
+  width: 80%;
+  height: 200px;
+  background-color: blue;
+  display: flex;
+  flex: row;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 20px;
+  overflow: hidden;
+  }
+  .profe1{
+    display: flex;
+    width:100%;
+    height: 180px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  .perfil{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+    overflow: hidden;
+  }
+  .logros-2{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+    overflow: hidden;
+  }
+  .perfil h1{
+    display: flex;
+    justify-content: center;
+  }
+  .logros-2 h1{
+    display: flex;
+    justify-content: center;
+  }
+  .perfil p{
+    display: flex;
+    justify-content: center;
+  }
+  .videos{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    margin-top: 100px;
+  }
+  .videos h1{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+  }
+  .videos-1{
+    display: flex;
+    flex: row;
+    gap: 10px;
+    margin-top: -300px;
+  }
+  .Cont-videos{
+    display: flex;
+    flex-direction: column;
+    background-color: dimgray;
+    padding: 10px;
+    border-radius: 20px;
+    height: 400px;
+  }
+  .Cont-videos h1{
+    margin-top: 30px;
+  }
+  .Cont-videos p{
+    margin-top: -60px;
+  }
+  .footer{
+    margin-top: 10px;
+    width: 100%;
+    height: 250px;
+    background-color: aqua;
+    overflow: hidden;
+    display: flex;
+  }
+  .cont-footer{
+    display: flex;
+    flex: row;
+    padding: 20px;
+    
+  }
+.items-footer{
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+.items-footer h1{
+  font-size: 25px;
+  font-weight: bold;
+}
+.enlances{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  margin-top: -100px;
+  border-left: 2px solid blue;
+  padding: 10px;
+}
